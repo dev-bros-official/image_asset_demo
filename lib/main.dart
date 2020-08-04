@@ -46,6 +46,10 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Container(
+              height: 100,
+              child: Image.network('https://yt3.ggpht.com/a-/AOh14GhUKsoAQKfTxbB7BxHPPe3Fok8O6i_VQNSX5CmC=s100-c-k-c0xffffffff-no-rj-mo'),
+            ),
             Text(
               'You have pushed the button this many times:',
             ),
